@@ -9,7 +9,7 @@ const routes = [
   {
     path: '/favorites',
     name: 'Favorites',
-    component: { template: () => import('../views/Favorites.vue') },
+    component: () => import('../views/Favorites.vue'),
   },
   {
     path: '/:pathMatch(.*)*',
